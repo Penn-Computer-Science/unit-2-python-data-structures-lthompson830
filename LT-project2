@@ -22,4 +22,21 @@ for k, v in countries.items():
 
 print("")
 
-fruits = set("Lemon", "Apple", )
+set1 = {"Lemon", "Apple", "Banana"}
+set1.add("Watermelon")
+print(set1)
+set2 = {"Blueberry", "Banana", "Rasberry"}
+print(set2)
+print(set1 | set2)
+print(set1 - set2)
+print(set1 & set2)
+
+print("")
+
+tuple1 = ("Red", "Blue", "Yellow", "Green")
+print(tuple1[0])
+print(tuple1[3])
+for i in tuple1:
+    print(i)
+#tuple1[0] = "Pink"
+#tuples cannot be motified
